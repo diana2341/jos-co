@@ -3,7 +3,7 @@ import { Nav,Navbar,NavDropdown } from 'react-bootstrap';
 import logo from '../imgs/logo2.png'
 export default function NavbarComponent(props){
     return(
-        <Navbar expand='lg'variant="light" sticky="top">
+        <Navbar id='nav 'bg='white'expand='lg'variant="light" sticky="top">
         <Navbar.Brand href="/">
           <img
             src={logo}
@@ -18,8 +18,8 @@ export default function NavbarComponent(props){
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/home/about-us">About</Nav.Link>
-            <Nav.Link href="/home/contact-us">Contact</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

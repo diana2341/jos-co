@@ -1,3 +1,4 @@
+
 #nav-name{
   font-family: 'Archivo Black';
   }
@@ -9,9 +10,55 @@
   object-fit: cover;
   max-width: 100%;
   display: block;
-  border-radius: 58% 0% 0% 100% / 0% 0% 0% 28% ;
+  /* border-radius: 58% 0% 0% 100% / 0% 0% 0% 28% ; */
   filter: brightness(.4);
   
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+.wrapper > * {
+  padding: 20px;
+}
+#form{
+  width: 50%;
+  border: solid rgba(211, 209, 209, 0.418);
+  padding: 15px;
+  border-radius: 50px;
+  background:  rgba(211, 209, 209, 0.418);
 
+  margin: auto;
+  width: 50%;
+  top: 50%;
+
+}
+#caption-buttons{
+  word-spacing:15px;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Antic');
+#caption{
+  top: 10%;
+  font-family: 'Antic'
+}
+.cards{
+  /* color:rgb(238, 197, 14) */
+  color: white;
+}
+.first, .third{
+  bottom: -35px;
+}
+#figure{
+  border: 50%;
+  top: 35%;
+}
+.title{
+  font-family: 'Antic';
+  -webkit-text-decoration: rgb(238, 197, 14)  underline;
+  text-decoration: rgb(238, 197, 14) underline;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-skip: objects;
+}

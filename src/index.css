@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Antic');
+
 #nav-name{
   font-family: 'Archivo Black';
   }
@@ -35,30 +37,47 @@
   top: 50%;
 
 }
-#caption-buttons{
-  word-spacing:15px;
+#caption-buttons>*{
+  position: relative;
+  /* word-spacing:15px; */
+  bottom: 80px;
+  z-index: 999;
+  color: white
 
 }
 @import url('https://fonts.googleapis.com/css?family=Antic');
 #caption{
   top: 10%;
-  font-family: 'Antic'
+  /* font-family: 'Antic' */
 }
 .cards{
   /* color:rgb(238, 197, 14) */
   color: white;
 }
-.first, .third{
+/* .first, .third{
   bottom: -35px;
-}
+} */
 #figure{
   border: 50%;
   top: 35%;
 }
 .title{
   font-family: 'Antic';
-  -webkit-text-decoration: rgb(238, 197, 14)  underline;
-  text-decoration: rgb(238, 197, 14) underline;
+  -webkit-text-decoration: #7E7D83  underline;
+  text-decoration: #7E7D83 underline;
   -webkit-text-decoration-skip: objects;
   text-decoration-skip: objects;
 }
+.footer {
+  background-color: 
+  /* #17A2B8; */
+  #282D33;
+  color: white;
+  text-align: center;
+  padding: 5%;
+   
+  }
+  /* .mr-auto{
+    position: relative;
+    left: 75vw;
+  } */

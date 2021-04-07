@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel,Button,CardDeck,Card,Figure,Image} from 'react-bootstrap'
-import banner from '../imgs/entranceBanner.jpg'
+import banner from '../imgs/roof2.jpg'
 import person from '../imgs/user.jpeg'
 
 export default function Home(props){
@@ -18,11 +18,11 @@ export default function Home(props){
                         {/* <video id='banner' autoPlay muted loop>
                         <source src={banner}type="video/mp4"/>
                         </video> */}
-                        <Carousel.Caption id='caption-buttons'>
-                        <Button variant="outline-warning">Contact</Button>{' '}
-                        <Button variant="outline-warning">My Work</Button>{' '}
+                        <div id='caption-buttons'>
+                        <Button variant="outline-secondary">Contact</Button>{' '}
+                        <Button variant="outline-secondary">My Work</Button>{' '}
 
-                        </Carousel.Caption>
+                        </div>
 
                         <Carousel.Caption id='figure'>
                         <Figure>
@@ -51,7 +51,7 @@ export default function Home(props){
                <CardDeck >
                 {workType.map(type=>
                 
-                        <Card bg='warning' border="warning" className={`cards ${type}`}>
+                        <Card key={type}bg='secondary' border="secondary" className={`cards ${type}`}>
                             <Card.Body>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>

@@ -7,7 +7,8 @@ export default function NavbarComponent(props){
         <Navbar.Brand href="/">
           <img
             src={logo}
-            width="100"
+            width="160"
+            // height='60'
             height="auto"
             className="d-inline-block align-top"
             alt="logo"
@@ -15,8 +16,8 @@ export default function NavbarComponent(props){
         </Navbar.Brand>
         {/* <Navbar.Brand id ='nav-name'href="#home">Jose Construction CO.</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+        <Navbar.Collapse  id="basic-navbar-nav">
+          <Nav className="ml-auto " >
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>

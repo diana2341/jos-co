@@ -4,6 +4,8 @@ import NavbarComponent from'./components/navbarComponent'
 import About from'./components/about'
 import Contact from'./components/contact'
 import Home from'./components/home'
+import Footer from'./components/Footer'
+
 
 
 import {
@@ -20,7 +22,8 @@ function App() {
           <Route exact path="/" render={(props) => <Home routerProps={props}/>} />
           <Route exact path="/about" render={(props) => <About/>} />
           <Route exact path="/contact" render={(props) => <Contact/>} />
-        </Router>
+        </Router><br/><br/><br/><br/>
+      <Footer/>
     </div>
   );
 }

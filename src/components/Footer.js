@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
             <footer className='footer'>
                 <Container>
                     <Row >  
-                     <Col>March 2021 | Made with ❤️ by Diana Ponce</Col>
+                     <Col>© Copyright 2021    |     All Rights Reserved</Col>
                     </Row>               
                 </Container>
              

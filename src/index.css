@@ -20,10 +20,13 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  text-align: center;
+  
 }
 
 .wrapper > * {
   padding: 20px;
+  
 }
 #form{
   width: 50%;
@@ -45,14 +48,24 @@
   color: white
 
 }
-@import url('https://fonts.googleapis.com/css?family=Antic');
+#btn{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+@import url('https://fonts.googleapis.com/css?family=Almarai');
 #caption{
-  top: 10%;
-  /* font-family: 'Antic' */
+  top: 30%;
+  font-family: 'Almarai';
+  text-shadow: 2px 2px 4px #000000;
+
+  /* text-align: center; */
+
 }
 .cards{
   /* color:rgb(238, 197, 14) */
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 /* .first, .third{
   bottom: -35px;
@@ -63,10 +76,13 @@
 }
 .title{
   font-family: 'Antic';
-  -webkit-text-decoration: #7E7D83  underline;
-  text-decoration: #7E7D83 underline;
+  /* color: white; */
+  -webkit-text-decoration: white  underline;
+  text-decoration: white underline;
   -webkit-text-decoration-skip: objects;
   text-decoration-skip: objects;
+  text-shadow: 2px 2px 4px #000000;
+
 }
 .footer {
   background-color: 
@@ -81,3 +97,13 @@
     position: relative;
     left: 75vw;
   } */
+  #work{
+    text-decoration: #faf9fc overline  ;
+    padding: 10px;
+
+  }
+ 
+  .img{  
+    width:  100%;
+    height: 250px;
+    object-fit: cover;}

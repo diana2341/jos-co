@@ -31,14 +31,14 @@ export default function About(props){
 
     ]
     return(
-        <div>
+        <div id ='a-p'>
             <br/><br/><br/>
             <Container>
                 <Row>
                     <Col  md={6}>
 
-                        <h1 className='title'>Latest Works</h1>
-                        <Carousel>
+                        <h1 className='title a-b'>Latest Works</h1>
+                        <Carousel className='work-info'>
 
                             <Carousel.Item>
                                 <img
@@ -61,12 +61,12 @@ export default function About(props){
                     </Col>
 
                     <Col md={{ span: 4, offset: 2 }}>
-                        <h1 className='title'>Services</h1><br/>
+                        <h1 className='title a-b'>Services</h1><br/>
                         <ListGroup horizontal >
                             <Row>
                                 {service.sort((a, b)=>a.length-b.length).map(service=>
                                 <Col md={6}>
-                                <ListGroup.Item key={service}>
+                                <ListGroup.Item  className='work-info list'variant='light' key={service}>
                                     <i class="fas fa-hammer"></i>{' '}
                                     {service}
                                 </ListGroup.Item>
@@ -75,6 +75,27 @@ export default function About(props){
                             </Row>  
                      </ListGroup>
                     </Col>
+                </Row><br/><br/><br/>
+                <Row className="justify-content-md-center">
+                <Jumbotron className='work-info'>
+
+                    <Col xs >
+                        <h1 className='title'id='ex '>30 Years Expireince</h1>
+                        <p id='about-p'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec purus et nisi 
+                        elementum consectetur quis id sem. Nulla ex mi, dignissim sollicitudin purus quis,
+                        estibulum dapibus ex. Nunc lobortis sem sit amet diam vestibulum, in molestie felis 
+                        tristique. In eu orci orci. Cras sed odio sed nisl maximus iaculis tempus in ligula. 
+                        Vivamus dolor sapien, bibendum eget eros quis, dapibus dapibus sem. Vivamus pellentesque 
+                        dolor non tellus sodales gravida. Donec pulvinar massa ullamcorper magna sollicitudin porta. 
+                        Pellentesque a lacus fermentum, facilisis diam quis, rutrum libero. Nunc sit amet pulvinar nisl. 
+                        Nam gravida, lorem interdum elementum elementum, massa sapien vestibulum erat, quis facilisis est
+                        nisl et nisl. Vivamus id consequat quam.
+                        </p>
+                    </Col>
+                </Jumbotron>
+
+                    
                 </Row>
             {/* <h1 className='title'>Latest Works</h1>
             <Carousel>

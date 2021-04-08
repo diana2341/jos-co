@@ -1,27 +1,31 @@
 import React from 'react'
-import {Container,Form,Button} from 'react-bootstrap'
+import {Container,Form,Button,Row} from 'react-bootstrap'
 
 export default function Contact(props){
     return(
-        <div>
+        <div class='f-pg' id='#contact'>
         <Container>
             <Form id='form'>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                    <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                    </Form.Text>
+                <Form.Group  as={Row} controlId="Name">
+                    <Form.Label>Enter Your Name</Form.Label>
+                    <Form.Control type="Name" placeholder="Name" />
                 </Form.Group>
 
-                <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
+                <Form.Group  as={Row} controlId="formBasicEmail">
+                    <Form.Label>Enter Your Email </Form.Label>
+                    <Form.Control type="email" placeholder="Email" />
                 </Form.Group>
-                <Form.Group controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+
+                <Form.Group  as={Row} controlId="formBasicSubject">
+                    <Form.Label>Subject</Form.Label>
+                    <Form.Control type="Subject" placeholder="Subject" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+
+                <Form.Group  as={Row} controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Enter Your Message</Form.Label>
+                    <Form.Control type="Message" placeholder="Message"  as="textarea" rows={3} />
+                </Form.Group>
+                <Button id='submit'variant="secondary" type="submit">
                     Submit
                 </Button>
             </Form>

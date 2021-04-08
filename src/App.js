@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/" render={(props) => <Home routerProps={props}/>} />
           <Route exact path="/about" render={(props) => <About/>} />
           <Route exact path="/contact" render={(props) => <Contact/>} />
-        </Router><br/><br/><br/><br/>
+        </Router>
       <Footer/>
     </div>
   );

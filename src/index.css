@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Antic');
-
+.f-pg  {
+  background-image: url("./imgs/kitchen.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
 #nav-name{
   font-family: 'Archivo Black';
   }
@@ -17,11 +22,11 @@
   
 }
 .wrapper {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   min-height: 100vh;
   text-align: center;
-  
+   */
 }
 
 .wrapper > * {
@@ -30,10 +35,10 @@
 }
 #form{
   width: 50%;
-  border: solid rgba(211, 209, 209, 0.418);
+  /* border: solid rgba(211, 209, 209, 0.418); */
   padding: 15px;
-  border-radius: 50px;
-  background:  rgba(211, 209, 209, 0.418);
+  /* border-radius: 50px;
+  background:  rgba(211, 209, 209, 0.418); */
 
   margin: auto;
   width: 50%;
@@ -74,14 +79,27 @@
   border: 50%;
   top: 35%;
 }
-.title{
+#form>*{
+  text-shadow: 2px 2px 8px #ffffff;
   font-family: 'Antic';
-  /* color: white; */
-  -webkit-text-decoration: white  underline;
-  text-decoration: white underline;
-  -webkit-text-decoration-skip: objects;
-  text-decoration-skip: objects;
-  text-shadow: 2px 2px 4px #000000;
+  color: black;
+  font-weight: bolder;
+
+}
+#form #submit{
+  color: white;
+  text-shadow: none;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Allerta');
+.title{
+  font-family: 'Allerta';
+  /* color: #948d8d; */
+  -webkit-text-decoration:   overline;
+  text-decoration:  overline;
+  /* -webkit-text-decoration-skip: objects;
+  text-decoration-skip: objects; */
+  /* text-shadow: 1px 1px 1px #111111; */
 
 }
 .footer {
@@ -107,3 +125,11 @@
     width:  100%;
     height: 250px;
     object-fit: cover;}
+    #call{
+      color: white;
+      font-family: 'Antic';
+      text-shadow: 2px 2px 8px #000000;
+      border: solid #808992 ;
+      background-color: #808992;
+
+    }

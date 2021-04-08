@@ -4,8 +4,7 @@ import banner from '../imgs/roof2.jpg'
 import bath from '../imgs/bath.jpg'
 import siding from '../imgs/siding.jpg'
 import door from '../imgs/door2.jpeg'
-import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
-
+import Contact from'./contact'
 import TextTransition, { presets } from "react-text-transition";
 
 
@@ -38,13 +37,6 @@ export default function Home(props){
                 <Carousel controls={false} indicators={false}>
 
                     <Carousel.Item>
-                    <Parallax pages={3} scrolling={true} horizontal >
-  <ParallaxLayer offset={0} speed={0.5}>
-  <img
-                        className="d-block w-100"
-                        id='banner'src={banner}
-                        />  </ParallaxLayer>
-</Parallax>
                         <img
                         className="d-block w-100"
                         id='banner'src={banner}
@@ -111,7 +103,11 @@ export default function Home(props){
                     
                 )}
                 </CardDeck>
+                <Button  variant="outline-secondary">View All Services</Button>{' '}
                 <br/><br/>
+                <h2 id='call'>CONTACT US TODAY! 631-675-6214</h2>
+                <br/><br/><br/>
+                <Contact/>
         </div>
        
     )

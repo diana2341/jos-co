@@ -3,7 +3,7 @@ import {Container,Form,Button,Row} from 'react-bootstrap'
 
 export default function Contact(props){
     return(
-        <div class='f-pg' id='#contact'>
+        <div class='f-pg' id='contact'>
         <Container>
             <Form id='form'>
                 <Form.Group  as={Row} controlId="Name">

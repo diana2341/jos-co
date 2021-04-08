@@ -16,41 +16,35 @@ export default function Home(props){
         "Roofs",
         "Flooring"
       ];
-      const [index, setIndex] = React.useState(0);
-      let renderImage=(option)=>{
+    const [index, setIndex] = React.useState(0);
+    
+    let renderImage=(option)=>{
         if (option === 'Kitchen & Baths')return bath
         else if (option === 'Roofing & Siding')return siding
         else if(option==='Windows & Doors')return door
         else return null
     }
-      React.useEffect(() => {
+
+    React.useEffect(() => {
         const intervalId = setInterval(() =>
           setIndex(index => index + 1),
           3000 // every 3 seconds
         );
         return () => clearTimeout(intervalId);
-      }, []);
+    }, []);
        
     return(
-        <div className='wrapper'>
-          
+        <div className='wrapper'> 
                 <Carousel controls={false} indicators={false}>
-
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         id='banner'src={banner}
                         />
-                        {/* <video id='banner' autoPlay muted loop>
-                        <source src={banner}type="video/mp4"/>
-                        </video> */}
                          <div id='caption-buttons'>
-                        <Button id='btn'variant="outline-secondary" size="lg">SCHEDULE A FREE ESTIMATE</Button>{' '}
-                        {/* <Button variant="outline-secondary">My Work</Button>{' '} */}
-
+                        <Button id='btn'variant="outline-secondary" size="lg" href='#contact'>SCHEDULE A FREE ESTIMATE</Button>{' '}
                         </div> 
                         <Carousel.Caption id='caption'>
-
                             <Container >
                             <Row className="justify-content-md-center">
                                 <Col>  
@@ -71,13 +65,8 @@ export default function Home(props){
                             </Row>
                             </Container> 
                         </Carousel.Caption>
-
-                       
-                   
-
                     </Carousel.Item>  
                 </Carousel>
-                {/* <br/><br/><br/><br/> */}
                 <h1 className='title'>Jose's Construction Company</h1>
                 <br/><br/><br/><br/>
 
@@ -103,7 +92,7 @@ export default function Home(props){
                     
                 )}
                 </CardDeck>
-                <Button  variant="outline-secondary">View All Services</Button>{' '}
+                <Button  variant="outline-secondary" href='/about'>View All Services</Button>{' '}
                 <br/><br/>
                 <h2 id='call'>CONTACT US TODAY! 631-675-6214</h2>
                 <br/><br/><br/>

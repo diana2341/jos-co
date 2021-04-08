@@ -125,6 +125,14 @@
     width:  100%;
     height: 250px;
     object-fit: cover;}
+    .d-block{
+      width: 100%;
+      height: 580px;
+      /* border-radius: 55; */
+      object-fit: cover;
+      max-width: 100%;
+      /* display: block; */
+    }
     #call{
       color: white;
       font-family: 'Antic';

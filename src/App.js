@@ -20,7 +20,7 @@ function App() {
       <NavbarComponent/>
       <Router>
           <Route exact path="/" render={(props) => <Home routerProps={props}/>} />
-          <Route exact path="/about" render={(props) => <About/>} />
+          <Route exact path="/services" render={(props) => <About/>} />
           <Route exact path="/contact" render={(props) => <Contact/>} />
         </Router>
       <Footer/>

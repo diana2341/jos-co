@@ -37,8 +37,8 @@ export default function About(props){
                 <Row>
                     <Col  md={6}>
 
-                        <h1 className='title a-b'>Latest Works</h1>
-                        <Carousel className='work-info'>
+                        <h1 className='title a-b'>Latest Works</h1><br/><br/>
+                        <Carousel className='work-info car'>
 
                             <Carousel.Item>
                                 <img
@@ -67,7 +67,7 @@ export default function About(props){
                                 {service.sort((a, b)=>a.length-b.length).map(service=>
                                 <Col md={6}>
                                 <ListGroup.Item  className='work-info list'variant='light' key={service}>
-                                    <i class="fas fa-hammer"></i>{' '}
+                                    <i class="fas fa-hammer"></i>
                                     {service}
                                 </ListGroup.Item>
                                 </Col>

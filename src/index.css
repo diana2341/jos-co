@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Antic');
+body{
+  background-color: rgb(229, 226, 226);
+}
 .f-pg  {
   background-image: url("./imgs/kitchen.jpeg");
   background-repeat: no-repeat;
@@ -30,7 +33,7 @@
 }
 
 .wrapper > * {
-  padding: 20px;
+  /* padding: 20px; */
   
 }
 #form{
@@ -44,6 +47,8 @@
   width: 50%;
   top: 50%;
 
+
+padding: 28px;
 }
 #caption-buttons>*{
   position: relative;
@@ -93,10 +98,10 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Allerta');
 .title{
-  font-family: 'Allerta';
-  /* color: #948d8d; */
+  font-family: 'Almarai';
+  color: #32404D;
   -webkit-text-decoration:   overline;
-  text-decoration:  overline;
+  text-decoration:  overline ;
   /* -webkit-text-decoration-skip: objects;
   text-decoration-skip: objects; */
   /* text-shadow: 1px 1px 1px #111111; */
@@ -118,6 +123,7 @@
   #work{
     text-decoration: #faf9fc overline  ;
     padding: 10px;
+    font-family: 'Almarai';
 
   }
  
@@ -132,6 +138,7 @@
       object-fit: cover;
       max-width: 100%;
       /* display: block; */
+
     }
     #call{
       color: white;
@@ -141,25 +148,28 @@
       background-color: #808992;
 
     }
-   #a-p{
+   /* #a-p{
     background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
     background-color: white;
-   }
-   #work-info{
+   } */
+   .car{
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
    }
    .a-b{
-     color: white;
-     text-shadow: 2px 2px 8px #000000;
+     /* color: white; */
+     text-shadow: 0px 0px 1px #000000;
+
 
    }
    .list{
     background-color: transparent;
-    border: 1px solid rgb(187, 184, 184);
-    border-radius: 0;
-    color: #fff;
-    text-shadow: 2px 2px 8px #000000;
+     border: 1px solid transparent;
+     font-family: 'Almarai';
+     color: #32404D;
 
+   }
+   .dk{
+     padding: 10px;
    }
   

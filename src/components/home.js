@@ -2,7 +2,7 @@ import React from 'react'
 import { Carousel,Button,CardDeck,Card,Row,Col, Container} from 'react-bootstrap'
 import banner from '../imgs/roof2.jpg'
 import bath from '../imgs/bath.jpg'
-import siding from '../imgs/siding.jpg'
+import siding from '../imgs/roof.jpeg'
 import door from '../imgs/door2.jpeg'
 import Contact from'./contact'
 import TextTransition, { presets } from "react-text-transition";
@@ -43,6 +43,8 @@ export default function Home(props){
                         />
                          <div id='caption-buttons'>
                         <Button id='btn'variant="outline-secondary" size="lg" href='#contact'>SCHEDULE A FREE ESTIMATE</Button>{' '}
+                        <Button id='btn'variant="outline-secondary" size="lg" href='/services'>VIEW ALL SERVICES</Button>{' '}
+
                         </div> 
                         <Carousel.Caption id='caption'>
                             <Container >
@@ -70,7 +72,7 @@ export default function Home(props){
                 <h1 className='title'>Jose's Construction Company</h1>
                 <br/><br/><br/><br/>
 
-               <CardDeck >
+               <CardDeck className='dk'>
                 {workType.map(type=>
                 
                         <Card key={type}bg='secondary' border="secondary" className={`cards ${type}`}>
@@ -92,7 +94,8 @@ export default function Home(props){
                     
                 )}
                 </CardDeck>
-                <Button  variant="outline-secondary" href='/about'>View All Services</Button>{' '}
+                <br/>
+                <Button  variant="outline-secondary" href='/services'>View All Services</Button>{' '}
                 <br/><br/>
                 <h2 id='call'>CONTACT US TODAY! 631-675-6214</h2>
                 <br/><br/><br/>

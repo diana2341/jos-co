@@ -4,9 +4,14 @@ body{
   background-color: rgb(229, 226, 226);
 }
 .f-pg  {
-  background-image: url("./imgs/kitchen.jpeg");
+  /* background-image: url("./imgs/kitchen.jpeg"); */
+  background-image: url('http://www.whiteconcretefloors.com/media/background_image_4.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   
 }
 #nav-name{
@@ -67,7 +72,8 @@ padding: 28px;
   top: 30%;
   font-family: 'Almarai';
   text-shadow: 2px 2px 4px #000000;
-
+  margin-left: auto;
+      margin-right: auto;
   /* text-align: center; */
 
 }
@@ -85,9 +91,9 @@ padding: 28px;
   top: 35%;
 }
 #form>*{
-  text-shadow: 2px 2px 8px #ffffff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Antic';
-  color: black;
+  color: white;
   font-weight: bolder;
 
 }
@@ -172,4 +178,48 @@ padding: 28px;
    .dk{
      padding: 10px;
    }
+   @media(max-width : 696px){
+     #text-job{
+       left: 33%;
+     }
+     #caption-buttons>*{
+       bottom: 125px;
+     }
+ 
+   }
+   @media(max-width : 540px){
   
+    #text-job{
+      left: 20%;
+    }
+  
+ 
+  }
+   @media(max-width : 414px){
+  
+    #text-job{
+      left: 20%;
+    }
+  
+ 
+  }
+   @media(max-width : 375px){
+  
+   #text-job{
+     left: 15%;
+   }
+ 
+
+ }
+   @media(max-width : 329px){
+     #caption{
+       top: 10%;
+     }
+    #text-job{
+      left: 20%;
+    }
+    #caption-buttons>*{
+      bottom: 155px;
+    }
+
+  }

@@ -51,13 +51,13 @@ export default function Home(props){
                             <Row className="justify-content-md-center">
                                 <Col>  
                                 <h1>
-                                    Interior and exterior design
+                                    Interior and exterior design 
                                     </h1>  
                                 </Col><br/>
                             </Row>
                             <Row>
-                            <Col md={{ span: 4, offset: 5 }}>    
-                                    <h1>
+                            <Col id='text-job'md={{ span: 4, offset: 5 }}>    
+                                    <h1 >
                                         <TextTransition
                                         text={ TEXTS[index % TEXTS.length] }
                                         springConfig={ presets.gentle }

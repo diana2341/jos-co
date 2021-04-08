@@ -34,7 +34,7 @@ export default function About(props){
         <div id ='a-p'>
             <br/><br/><br/>
             <Container>
-                <Row>
+                {/* <Row>
                     <Col  md={6}>
 
                         <h1 className='title a-b'>Latest Works</h1><br/><br/>
@@ -61,14 +61,14 @@ export default function About(props){
                     </Col>
 
                     <Col md={{ span: 4, offset: 2 }}>
-                        <h1 className='title a-b'>Services</h1><br/>
+                        <h1 className='title a-b'>Services</h1><br/><br/>
                         <ListGroup horizontal >
                             <Row>
                                 {service.sort((a, b)=>a.length-b.length).map(service=>
                                 <Col md={6}>
                                 <ListGroup.Item  className='work-info list'variant='light' key={service}>
-                                    <i class="fas fa-hammer"></i>
-                                    {service}
+                                    {/* ~<i class="fas fa-hammer"></i> */}
+                                    {/* ‣{service}
                                 </ListGroup.Item>
                                 </Col>
                                  )}
@@ -96,16 +96,10 @@ export default function About(props){
                 </Jumbotron>
 
                     
-                </Row>
-            {/* <h1 className='title'>Latest Works</h1>
+                </Row> */} 
+            <h1 className='title a-b'>Latest Works</h1><br/><br/>
             <Carousel>
-            <Carousel.Item>
-            <img
-            className="d-block w-100"
-            src={roof}
-            alt="First slide"
-            />
-            </Carousel.Item>
+          
             <Carousel.Item>
             <img
             className="d-block w-100"
@@ -124,20 +118,36 @@ export default function About(props){
             </Carousel.Item>
             </Carousel>
             <h2 id='call'>CONTACT US TODAY! 631-675-6214</h2><br/><br/>
-            <h1 className='title'>Services</h1><br/>
+            <h1 className='title a-b'>Services</h1><br/><br/>
             <ListGroup horizontal >
             <Row>
             {service.sort((a, b)=>b.length-a.length).map(service=>
-            <Col md={6}>
-            <ListGroup.Item key={service}>
-            <i class="fas fa-hammer"></i>{' '}
-            {service}
+            <Col md={4}>
+            <ListGroup.Item  className='work-info list'variant='light' key={service}>
+            {/* <i class="fas fa-hammer"></i>{' '} */}
+            » {' '}{service}
             </ListGroup.Item>
             </Col>
             )}
             </Row>  
-            </ListGroup>
-            */}
+            </ListGroup><br/><br/>
+            <Jumbotron className='work-info'>
+
+<Col xs >
+    <h1 className='title'id='ex '>30 Years Expireince</h1>
+    <p id='about-p'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec purus et nisi 
+    elementum consectetur quis id sem. Nulla ex mi, dignissim sollicitudin purus quis,
+    estibulum dapibus ex. Nunc lobortis sem sit amet diam vestibulum, in molestie felis 
+    tristique. In eu orci orci. Cras sed odio sed nisl maximus iaculis tempus in ligula. 
+    Vivamus dolor sapien, bibendum eget eros quis, dapibus dapibus sem. Vivamus pellentesque 
+    dolor non tellus sodales gravida. Donec pulvinar massa ullamcorper magna sollicitudin porta. 
+    Pellentesque a lacus fermentum, facilisis diam quis, rutrum libero. Nunc sit amet pulvinar nisl. 
+    Nam gravida, lorem interdum elementum elementum, massa sapien vestibulum erat, quis facilisis est
+    nisl et nisl. Vivamus id consequat quam.
+    </p>
+</Col>
+</Jumbotron>
             </Container>
             <br/>
                 

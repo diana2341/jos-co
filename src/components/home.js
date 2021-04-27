@@ -13,7 +13,7 @@ export default function Home(props){
     const TEXTS = [
         "Bathrooms",
         "Kitchens",
-        "Roofs",
+        "Roof Repair",
         "Flooring"
       ];
     const [index, setIndex] = React.useState(0);

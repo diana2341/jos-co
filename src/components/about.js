@@ -117,7 +117,7 @@ export default function About(props){
 
             </Carousel.Item>
             </Carousel>
-            <h2 id='call'>CONTACT US TODAY! 631-675-6214</h2><br/><br/>
+            <h2 id='call'>CONTACT US TODAY! 123-600-6800</h2><br/><br/>
             <h1 className='title a-b'>Services</h1><br/><br/>
             <ListGroup horizontal >
             <Row>

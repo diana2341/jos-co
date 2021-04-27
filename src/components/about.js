@@ -134,7 +134,7 @@ export default function About(props){
             <Jumbotron className='work-info'>
 
 <Col xs >
-    <h1 className='title'id='ex '>30 Years Expireince</h1>
+    <h1 className='title'id='ex '>30 Years experience</h1>
     <p id='about-p'>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec purus et nisi 
     elementum consectetur quis id sem. Nulla ex mi, dignissim sollicitudin purus quis,

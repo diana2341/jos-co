@@ -208,6 +208,11 @@ padding: 28px;
   
    #text-job{
      left: 15%;
+
+   }
+   .enter{
+     position: relative;
+     bottom: 50px;
    }
  
 
@@ -224,3 +229,11 @@ padding: 28px;
     }
 
   }
+  @media(max-width : 320px){
+  
+   #text-job{
+     left: 10%;
+   }
+   
+
+ }

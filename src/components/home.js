@@ -47,11 +47,11 @@ export default function Home(props){
 
                         </div> 
                         <Carousel.Caption id='caption'>
-                            <Container >
+                            <Container className='enter'>
                             <Row className="justify-content-md-center">
                                 <Col>  
                                 <h1>
-                                    Capentry and Masonary design 
+                                    Capentry & Masonary work 
                                     </h1>  
                                 </Col><br/>
                             </Row>

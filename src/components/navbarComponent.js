@@ -1,13 +1,13 @@
 import React from'react'
 import { Nav,Navbar,NavDropdown } from 'react-bootstrap';
-import logo from '../imgs/logo2.png'
+import logo from '../imgs/MLogo.png'
 export default function NavbarComponent(props){
     return(
         <Navbar id='nav 'bg='white'expand='lg'variant="light" sticky="top">
         <Navbar.Brand href="/">
           <img
             src={logo}
-            width="160"
+            width="100"
             height="auto"
             className="d-inline-block align-top"
             alt="logo"

@@ -51,7 +51,7 @@ export default function Home(props){
                             <Row className="justify-content-md-center">
                                 <Col>  
                                 <h1>
-                                    Interior and exterior design 
+                                    Capentry and Masonary design 
                                     </h1>  
                                 </Col><br/>
                             </Row>
@@ -69,7 +69,7 @@ export default function Home(props){
                         </Carousel.Caption>
                     </Carousel.Item>  
                 </Carousel>
-                <h1 className='title'>Jose's Construction Company</h1>
+                <h1 className='title'>Medardo MJ Construction Corp.</h1>
                 <br/><br/><br/><br/>
 
                <CardDeck className='dk'>

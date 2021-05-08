@@ -4,6 +4,7 @@ body{
   background-color: rgb(229, 226, 226);
   text-transform: capitalize;
 
+
 }
 .f-pg  {
   /* background-image: url("./imgs/kitchen.jpeg"); */
@@ -15,6 +16,11 @@ body{
   background-size: cover;
 
   
+}
+
+.jumbotron{
+  background-color: #FAF9F6
+
 }
 #nav-name{
   font-family: 'Archivo Black';
@@ -168,7 +174,9 @@ padding: 28px;
   
    .a-b{
      /* color: white; */
-     text-shadow: 0px 0px 1px #000000;
+     /* text-shadow: 0px 0px 1px #000000; */
+     font-family: 'Alegreya Sans';
+
 
 
    }
@@ -186,6 +194,10 @@ padding: 28px;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+  }
+  #about-p{
+    display:block;
+
   }
    @media(max-width : 696px){
      #text-job{

@@ -69,7 +69,7 @@ export default function Home(props){
                         </Carousel.Caption>
                     </Carousel.Item>  
                 </Carousel>
-                <h1 className='title'>Medardo MJ Construction Corp.</h1>
+                <h1 className='title'><i class="fas fa-tools"></i> Medardo MJ Construction Corp.</h1>
                 <br/><br/><br/><br/>
 
                <CardDeck className='dk'>
@@ -97,7 +97,7 @@ export default function Home(props){
                 <br/>
                 <Button  variant="outline-secondary" href='/services'>View All Services</Button>{' '}
                 <br/><br/>
-                <h2 id='call'>CONTACT US TODAY! 631-675-6214</h2>
+                <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG:404-578-5671</h2>
                 <br/><br/><br/>
                 <Contact/>
         </div>

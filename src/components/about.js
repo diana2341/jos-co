@@ -138,8 +138,9 @@ export default function About(props){
 }
            
             </Carousel>
-            <h2 id='call'>CONTACT US TODAY! 123-600-6
-            \00</h2><br/><br/>
+            <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG:404-578-5671</h2><br/><br/>
+                        <Jumbotron className='work-info'>
+
             <h1 className='title a-b'>{`${props.work?props.work:'Masonary & Carpentry'}`} Services </h1><br/><br/>
             <ListGroup horizontal >
             <Row>
@@ -152,9 +153,9 @@ export default function About(props){
             </Col>
             )}
             </Row>  
-            </ListGroup><br/><br/>
+            </ListGroup><br/><br/><br/>
+            {/* </Jumbotron > */}
 
-            <Jumbotron className='work-info'>
                 <Col xs >
                     <h1 className='title'id='ex '>20 Years experience <i class="fas fa-tools"></i></h1><br/>
                     <p id='about-p'>

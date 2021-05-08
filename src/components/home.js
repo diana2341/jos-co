@@ -43,7 +43,8 @@ export default function Home(props){
                         />
                          <div id='caption-buttons'>
                         <Button id='btn'variant="outline-secondary" size="lg" href='#contact'>SCHEDULE A FREE ESTIMATE</Button>{' '}
-                        <Button id='btn'variant="outline-secondary" size="lg" href='/services'>VIEW ALL SERVICES</Button>{' '}
+                        <div className='space'></div>        
+                       <Button id='btn'variant="outline-secondary" size="lg" href='/services'>VIEW ALL SERVICES</Button>{' '}
 
                         </div> 
                         <Carousel.Caption id='caption'>

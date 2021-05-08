@@ -1,7 +1,17 @@
 import React from'react'
 import { Nav,Navbar,NavDropdown } from 'react-bootstrap';
 import logo from '../imgs/MLogo.png'
+import { useHistory } from "react-router-dom";
+
 export default function NavbarComponent(props){
+    let masonary=()=>{
+      props.routerProps.history.push('/services')
+      props.setWork('masonary')
+    }
+    let carpentry=()=>{
+      props.routerProps.history.push('/services')
+      props.setWork('carpentry')
+    }
     return(
         <Navbar id='nav 'bg='white'expand='lg'variant="light" sticky="top">
         <Navbar.Brand href="/">
@@ -17,7 +27,10 @@ export default function NavbarComponent(props){
         <Navbar.Collapse  id="basic-navbar-nav">
           <Nav className="ml-auto " >
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/services">Services</Nav.Link>
+            <NavDropdown title="Services" id="basic-nav-dropdown">
+          <NavDropdown.Item onClick={masonary}>Masonary</NavDropdown.Item>
+            <NavDropdown.Item onClick={carpentry}>Carpentry</NavDropdown.Item>
+          </NavDropdown>
             <Nav.Link href="/#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

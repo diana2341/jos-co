@@ -13,11 +13,12 @@ import work9 from '../imgs/work9.jpg'
 import work10 from '../imgs/work10.jpg'
 import work11 from '../imgs/work11.jpg'
 import work12 from '../imgs/work12.jpg'
+import { propTypes } from 'react-bootstrap/esm/Image'
 
 
 
 export default function About(props){
-    let service=[
+    let allServices=[
         'Terraces ', 
         'Pool',
         'Patios',
@@ -30,22 +31,71 @@ export default function About(props){
         'Aprons',
         'Excavation',
         'Stucco Tile',
-        'Stairs',     'Renovations ', 
+        'Stairs',     
+        'Renovations ', 
         'Extensions',
         'Alterations',
         'Repairs',
-        'New Construction',
         'Window & Replacements',
         'Door & Replacement',
         'Kitchen Remodeling',
         'Bathroom Remodeling',
         'Roofing',
         'Siding'
+    ]
+    let masonary=[
+        'Terraces ', 
+        'Pool',
+        'Patios',
+        'Walkways',
+        'Brick Coping',
+        'Stone  Walls',
+        'Chimneys',
+        'Fireplaces',
+        'Columns',
+        'Aprons',
+        'Excavation',
+        'Stucco Tile',
+        'Stairs',     
+        
 
     ]
-    
+
+    let carpentry=[
+        'Renovations ', 
+        'Extensions',
+        'Alterations',
+        'Repairs',
+        'Window & Replacements',
+        'Door & Replacement',
+        'Kitchen Remodeling',
+        'Bathroom Remodeling',
+        'Roofing',
+        'Siding'
+    ]
+    let service=props.work==='masonary'?masonary:carpentry?allServices:allServices
     let work=['work1','work2','work3','work4','work5','work6','work7','work8','work9','work10','work11']
+    let masonaryWork=['work5','work6','work8','work9','work10','work11']
+    let carpentryWork=['work1','work2','work3','work4','work7','work12']
+
     let renderImage=(option)=>{
+        if (option === 'work1'&&props.work==='carpentry')return work1
+        else if (option === 'work2'&&props.work==='carpentry')return work2
+        else if(option==='work3'&&props.work==='carpentry')return work3
+        else if(option==='work4'&&props.work==='carpentry')return work4
+        else if(option==='work5'&&props.work==='masonary')return work5
+        else if(option==='work6'&&props.work==='masonary')return work6
+        else if(option==='work7'&&props.work==='carpentry')return work7
+        else if(option==='work8'&&props.work==='masonary')return work8
+        else if(option==='work9'&&props.work==='masonary')return work9
+        else if(option==='work10'&&props.work==='masonary')return work10
+        else if(option==='work11'&&props.work==='masonary')return work11
+        else if(option==='work12'&&props.work==='carpentry')return work12
+
+
+        else return null
+    }
+    let renderAllImage=(option)=>{
         if (option === 'work1')return work1
         else if (option === 'work2')return work2
         else if(option==='work3')return work3
@@ -62,6 +112,8 @@ export default function About(props){
 
         else return null
     }
+    let workImages=props.work==='masonary'?masonaryWork:props.work==='carpentry'?carpentryWork:work
+
     return(
         <div id ='a-p'>
             <h2 id='call'>LICENSED & INSURED!</h2>
@@ -71,11 +123,11 @@ export default function About(props){
               
             <h1 className='title a-b'>Latest Works <i class="fas fa-tools"></i></h1><br/><br/>
             <Carousel>
-          {work.map(option=>{
+          {workImages.map(option=>{
                return <Carousel.Item>
                <img
                className="d-block w-100"
-               src={renderImage(option)}
+               src={props.work?renderImage(option):renderAllImage(option)}
                alt={option}
                />
    
@@ -86,8 +138,9 @@ export default function About(props){
 }
            
             </Carousel>
-            <h2 id='call'>CONTACT US TODAY! 123-600-6800</h2><br/><br/>
-            <h1 className='title a-b'>Capentry and Masonary Services </h1><br/><br/>
+            <h2 id='call'>CONTACT US TODAY! 123-600-6
+            \00</h2><br/><br/>
+            <h1 className='title a-b'>{`${props.work?props.work:'Masonary & Carpentry'}`} Services </h1><br/><br/>
             <ListGroup horizontal >
             <Row>
             {service.sort((a, b)=>b.length-a.length).map(service=>

@@ -17,6 +17,9 @@ body{
 
   
 }
+.nav-link:active{
+  color: #BC7A42;
+}
 
 .jumbotron{
   background-color: #FAF9F6
@@ -253,7 +256,12 @@ padding: 28px;
   
    #text-job{
      left: 10%;
-   }
    
+   }
+@media(max-width:280){
+  input.form-control{
+    border: solid red;
+  }
+}
 
  }

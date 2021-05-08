@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {Row, Carousel,Container,Jumbotron,Image,Col,Form,Button,ListGroup} from 'react-bootstrap'
 import roof from '../imgs/foof3.jpeg'
 import work1 from '../imgs/work1.jpg'
@@ -113,20 +113,26 @@ export default function About(props){
         else return null
     }
     let workImages=props.work==='masonary'?masonaryWork:props.work==='carpentry'?carpentryWork:work
-
-    return(
+    useEffect(() => {
+        window.scroll({
+            top: 0, 
+            left: 0, 
+            // behavior: 'smooth'
+          });
+        });
+        return(
         <div id ='a-p'>
             <h2 id='call'>LICENSED & INSURED!</h2>
 
-            <br/><br/><br/>
-            <Container>
+            {/* <br/><br/><br/> */}
+            {/* <Container> */}
               
-            <h1 className='title a-b'>Latest Works <i class="fas fa-tools"></i></h1><br/><br/>
+            {/* <h1 className='title a-b'>Latest Works <i class="fas fa-tools"></i></h1><br/><br/> */}
             <Carousel>
           {workImages.map(option=>{
                return <Carousel.Item>
                <img
-               className="d-block w-100"
+               className="d-block w-100 "
                src={props.work?renderImage(option):renderAllImage(option)}
                alt={option}
                />
@@ -138,7 +144,9 @@ export default function About(props){
 }
            
             </Carousel>
-            <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG:404-578-5671</h2><br/><br/>
+                        <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG:404-578-5671</h2><br/><br/>
+
+            <Container>
                         <Jumbotron className='work-info'>
 
             <h1 className='title a-b'>{`${props.work?props.work:'Masonary & Carpentry'}`} Services </h1><br/><br/>
@@ -174,6 +182,7 @@ export default function About(props){
                 </Col>
             </Jumbotron>
             </Container>
+            {/* </Container> */}
             <br/>
                 
         </div>

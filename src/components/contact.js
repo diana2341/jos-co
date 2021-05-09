@@ -50,7 +50,7 @@ export default class Contact extends React.Component{
 
                 <Form.Group  as={Row} controlId="formBasicSubject">
                     <Form.Label>Town</Form.Label>
-                    <Form.Control onChange={this.handleChange}name='town'type="Subject" placeholder="Subject"value={this.state.town} />
+                    <Form.Control onChange={this.handleChange}name='town'type="Town" placeholder="Town"value={this.state.town} />
                 </Form.Group>
 
                 <Form.Group  as={Row} controlId="exampleForm.ControlTextarea1">

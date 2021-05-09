@@ -18,7 +18,7 @@ import {
 
 } from "react-router-dom";
 function App() {
-  const [work, setWork] = React.useState('');
+  const [work, setWork] = React.useState('carpentry');
 
   return (
     <div className="App">

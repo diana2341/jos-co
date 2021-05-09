@@ -165,13 +165,13 @@ export default function About(props){
             {/* </Jumbotron > */}
 
                 <Col xs >
-                    <h1 className='title'id='ex '>20 Years experience <i class="fas fa-tools"></i></h1><br/>
+                    <h1 className='title'id='ex '>20 Years of experience <i class="fas fa-tools"></i></h1><br/>
                     <p id='about-p'>
-                    Do you need repair or improvement work?  Medardo MJ Construction Corp. is a fully licensed and insured Home Improvement contractor and is here at your service. Medardo the owner of Medardo Construction Corp.
-                    is an experienced and knowledgable carpenter and craftsman and has been in the
+                    Do you need repair or improvement work? Medardo MJ Construction Corp. is a fully licensed and insured Home Improvement contractor and is here at your service. Medardo the owner of Medardo Construction Corp.
+                    is an experienced, knowledgable carpenter and craftsman who has been in the
                     business of upgrading the homes of many families for years. He takes pride in
-                    his work and it shows through the beautiful results he provide. With many years of experience
-                    under the his belt he can help you complete major and minor projects and guarantee the quality
+                    his work and it shows through the beautiful results he provides. With many years of experience
+                    under  his belt he can help you complete major and minor projects and guarantee the quality
                     of his workmanship. Medardo Construction Corp. does capentry work and beautiful masonary 
                     Work, from installing new windows to replacing them, Whatever your project, he is ready to help. Call now to schedule an appointment and free estimate. We will
                     also answer any questions you may have about the work that is done and what to expect during your service appointment.

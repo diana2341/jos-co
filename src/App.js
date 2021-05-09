@@ -25,7 +25,7 @@ function App() {
       {/* <NavbarComponent  setWork={setWork}/> */}
       <Router>
           <Route exact render={(props) => <NavbarComponent setWork={setWork}routerProps={props}/>} />
-          <Route exact path="/" render={(props) => <Home routerProps={props}/>} />
+          <Route exact path="/" render={(props) => <Home setWork={setWork}routerProps={props}/>} />
           <Route exact path="/services" render={(routerProps) => <About work={work}/>} />
           <Route exact path="/contact" render={(props) => <Contact/>} />
         </Router>

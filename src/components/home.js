@@ -32,9 +32,9 @@ export default function Home(props){
         );
         return () => clearTimeout(intervalId);
     }, []);
-    let masonary=()=>{
+    let masonry=()=>{
         props.routerProps.history.push('/services')
-        props.setWork('masonary')
+        props.setWork('masonry')
       }
       let carpentry=()=>{
         props.routerProps.history.push('/services')
@@ -60,7 +60,7 @@ export default function Home(props){
                             <Row className="justify-content-md-center">
                                 <Col>  
                                 <h1>
-                                    Capentry & Masonary work 
+                                    Capentry & Masonry work 
                                     </h1>  
                                 </Col><br/>
                             </Row>
@@ -112,7 +112,7 @@ export default function Home(props){
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item onClick={masonary}>Masonary Work</Dropdown.Item>
+                    <Dropdown.Item onClick={masonry}>Masonry Work</Dropdown.Item>
                     <Dropdown.Item onClick={carpentry}>Carpentry Work</Dropdown.Item>
                 </Dropdown.Menu>
                 </Dropdown>

@@ -43,7 +43,7 @@ export default function About(props){
         'Roofing',
         'Siding'
     ]
-    let masonary=[
+    let masonry=[
         'Terraces ', 
         'Pool',
         'Patios',
@@ -73,9 +73,9 @@ export default function About(props){
         'Roofing',
         'Siding'
     ]
-    let service=props.work==='masonary'?masonary:carpentry?allServices:allServices
+    let service=props.work==='masonry'?masonry:carpentry?allServices:allServices
     let work=['work1','work2','work3','work4','work5','work6','work7','work8','work9','work10','work11']
-    let masonaryWork=['work5','work6','work8','work9','work10','work11']
+    let masonryWork=['work5','work6','work8','work9','work10','work11']
     let carpentryWork=['work1','work2','work3','work4','work7','work12']
 
     let renderImage=(option)=>{
@@ -83,13 +83,13 @@ export default function About(props){
         else if (option === 'work2'&&props.work==='carpentry')return work2
         else if(option==='work3'&&props.work==='carpentry')return work3
         else if(option==='work4'&&props.work==='carpentry')return work4
-        else if(option==='work5'&&props.work==='masonary')return work5
-        else if(option==='work6'&&props.work==='masonary')return work6
+        else if(option==='work5'&&props.work==='masonry')return work5
+        else if(option==='work6'&&props.work==='masonry')return work6
         else if(option==='work7'&&props.work==='carpentry')return work7
-        else if(option==='work8'&&props.work==='masonary')return work8
-        else if(option==='work9'&&props.work==='masonary')return work9
-        else if(option==='work10'&&props.work==='masonary')return work10
-        else if(option==='work11'&&props.work==='masonary')return work11
+        else if(option==='work8'&&props.work==='masonry')return work8
+        else if(option==='work9'&&props.work==='masonry')return work9
+        else if(option==='work10'&&props.work==='masonry')return work10
+        else if(option==='work11'&&props.work==='masonry')return work11
         else if(option==='work12'&&props.work==='carpentry')return work12
 
 
@@ -112,7 +112,7 @@ export default function About(props){
 
         else return null
     }
-    let workImages=props.work==='masonary'?masonaryWork:props.work==='carpentry'?carpentryWork:work
+    let workImages=props.work==='masonry'?masonryWork:props.work==='carpentry'?carpentryWork:work
     useEffect(() => {
         window.scroll({
             top: 0, 
@@ -149,7 +149,7 @@ export default function About(props){
             <Container>
                         <Jumbotron className='work-info'>
 
-            <h1 className='title a-b'>{`${props.work?props.work:'Masonary & Carpentry'}`} Services </h1><br/><br/>
+            <h1 className='title a-b'>{`${props.work?props.work:'Masonry & Carpentry'}`} Services </h1><br/><br/>
             <ListGroup horizontal >
             <Row>
             {service.sort((a, b)=>b.length-a.length).map(service=>
@@ -172,7 +172,7 @@ export default function About(props){
                     business of upgrading the homes of many families for years. He takes pride in
                     his work and it shows through the beautiful results he provides. With many years of experience
                     under  his belt he can help you complete major and minor projects and guarantee the quality
-                    of his workmanship. Medardo Construction Corp. does capentry work and beautiful masonary 
+                    of his workmanship. Medardo Construction Corp. does capentry work and beautiful masonry 
                     Work, from installing new windows to replacing them, Whatever your project, he is ready to help. Call now to schedule an appointment and free estimate. We will
                     also answer any questions you may have about the work that is done and what to expect during your service appointment.
                     </p>

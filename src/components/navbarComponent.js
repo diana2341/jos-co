@@ -4,9 +4,9 @@ import logo from '../imgs/MLogo.png'
 import { useHistory } from "react-router-dom";
 
 export default function NavbarComponent(props){
-    let masonary=()=>{
+    let masonry=()=>{
       props.routerProps.history.push('/services')
-      props.setWork('masonary')
+      props.setWork('masonry')
     }
     let carpentry=()=>{
       props.routerProps.history.push('/services')
@@ -28,7 +28,7 @@ export default function NavbarComponent(props){
           <Nav className="ml-auto " >
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-          <NavDropdown.Item onClick={masonary}>Masonary</NavDropdown.Item>
+          <NavDropdown.Item onClick={masonry}>Masonry</NavDropdown.Item>
             <NavDropdown.Item onClick={carpentry}>Carpentry</NavDropdown.Item>
           </NavDropdown>
             <Nav.Link href="/#contact">Contact</Nav.Link>

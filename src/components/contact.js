@@ -37,6 +37,7 @@ export default class Contact extends React.Component{
       
   
         <Container>
+            <h5 className='c-a-b'>Contact us here! or email us directly at Medardomjconstruction@gmail.com</h5>
             <Form id='form'onSubmit={this.handleSubmit}>
                 <Form.Group  as={Row} controlId="Name">
                     <Form.Label>Enter Your Name</Form.Label>

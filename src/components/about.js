@@ -73,7 +73,7 @@ export default function About(props){
         'Roofing',
         'Siding'
     ]
-    let service=props.work==='masonry'?masonry:carpentry?allServices:allServices
+    let service=props.work==='masonry'?masonry:props.work==='carpentry'?carpentry:allServices
     let work=['work1','work2','work3','work4','work5','work6','work7','work8','work9','work10','work11']
     let masonryWork=['work5','work6','work8','work9','work10','work11']
     let carpentryWork=['work1','work2','work3','work4','work7','work12']

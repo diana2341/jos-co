@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel,Button,CardDeck,Card,Row,Col, Container} from 'react-bootstrap'
+import { Carousel,Button,CardDeck,Card,Row,Col, Container,Dropdown} from 'react-bootstrap'
 import banner from '../imgs/roof2.jpg'
 import bath from '../imgs/bath.jpg'
 import siding from '../imgs/roof.jpeg'
@@ -32,6 +32,14 @@ export default function Home(props){
         );
         return () => clearTimeout(intervalId);
     }, []);
+    let masonary=()=>{
+        props.routerProps.history.push('/services')
+        props.setWork('masonary')
+      }
+      let carpentry=()=>{
+        props.routerProps.history.push('/services')
+        props.setWork('carpentry')
+      }
        
     return(
         <div className='wrapper'> 
@@ -96,7 +104,20 @@ export default function Home(props){
                 )}
                 </CardDeck>
                 <br/>
-                <Button  variant="outline-secondary" href='/services'>View All Services</Button>{' '}
+                {/* <Button  variant="outline-secondary" href='/services'>View All Services</Button>{' '} */}
+
+                <Dropdown>
+                <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic">
+                    View All Services
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                    <Dropdown.Item onClick={masonary}>Masonary Work</Dropdown.Item>
+                    <Dropdown.Item onClick={carpentry}>Carpentry Work</Dropdown.Item>
+                </Dropdown.Menu>
+                </Dropdown>
+
+
                 <br/><br/>
                 <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG:404-578-5671</h2>
                 <br/><br/><br/>

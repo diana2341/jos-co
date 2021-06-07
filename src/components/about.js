@@ -144,7 +144,7 @@ export default function About(props){
 }
            
             </Carousel>
-                        <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG:404-578-5671</h2><br/><br/>
+                        <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG: Medardomjconstruction@Gmail.Com</h2><br/><br/>
 
             <Container>
                         <Jumbotron className='work-info'>

@@ -33,7 +33,7 @@ export default class Contact extends React.Component{
       }
     render(){
     return(
-        <div class='f-pg' id='contact'>
+        <div class='f-pg container-width' id='contact'>
       
   
         <Container>

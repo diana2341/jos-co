@@ -42,7 +42,7 @@ export default function Home(props){
       }
        
     return(
-        <div className='wrapper'> 
+        <div className='wrapper container-width'> 
                 <Carousel controls={false} indicators={false}>
                     <Carousel.Item>
                         <img

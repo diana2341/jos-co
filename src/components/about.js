@@ -121,7 +121,7 @@ export default function About(props){
           });
         });
         return(
-        <div id ='a-p'>
+        <div id ='a-p' className='container-width'>
             <h2 id='call'>LICENSED & INSURED!</h2>
 
             {/* <br/><br/><br/> */}
@@ -144,7 +144,7 @@ export default function About(props){
 }
            
             </Carousel>
-                        <h2 id='call'>CONTACT US TODAY! ES:631-508-1374 ENG: Medardomjconstruction@Gmail.Com</h2><br/><br/>
+                        <p id='call'>CONTACT US TODAY! ES:631-508-1374 ENG: Medardomjconstruction@Gmail.Com</p><br/><br/>
 
             <Container>
                         <Jumbotron className='work-info'>

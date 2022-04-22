@@ -1,48 +1,41 @@
-
-@import url('https://fonts.googleapis.com/css?family=Antic');
-body{
-  background-color: rgb(229, 226, 226);
-  /* text-transform: capitalize; */
-  overflow-x: hidden;
-
-
+@import url("https://fonts.googleapis.com/css?family=Antic");
+body {
+	background-color: rgb(229, 226, 226);
+	/* text-transform: capitalize; */
+	overflow-x: hidden;
 }
-.f-pg  {
-  /* background-image: url("./imgs/kitchen.jpeg"); */
-  background-image: url('http://www.whiteconcretefloors.com/media/background_image_4.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  
+.f-pg {
+	/* background-image: url("./imgs/kitchen.jpeg"); */
+	background-image: url("http://www.whiteconcretefloors.com/media/background_image_4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.nav-link:active{
-  color: #BC7A42;
+.nav-link:active {
+	color: #bc7a42;
 }
 
-.jumbotron{
-  background-color: #FAF9F6
-
+.jumbotron {
+	background-color: #faf9f6;
 }
-#nav-name{
-  font-family: 'Archivo Black';
-  }
+#nav-name {
+	font-family: "Archivo Black";
+}
 
-#banner{
-  width: 100%;
-  height: 580px;
-  border-radius: 55;
-  object-fit: cover;
-  max-width: 100%;
-  display: block;
-  /* border-radius: 58% 0% 0% 100% / 0% 0% 0% 28% ; */
-  filter: brightness(.4);
-  
+#banner {
+	width: 100%;
+	height: 580px;
+	border-radius: 55;
+	object-fit: cover;
+	max-width: 100%;
+	display: block;
+	/* border-radius: 58% 0% 0% 100% / 0% 0% 0% 28% ; */
+	filter: brightness(0.4);
 }
 .wrapper {
-  /* display: flex;
+	/* display: flex;
   flex-direction: column;
   min-height: 100vh;
   text-align: center;
@@ -50,267 +43,225 @@ body{
 }
 
 .wrapper > * {
-  /* padding: 20px; */
-  
+	/* padding: 20px; */
 }
-#form{
-  width: 50%;
-  /* border: solid rgba(211, 209, 209, 0.418); */
-  padding: 15px;
-  /* border-radius: 50px;
+#form {
+	width: 50%;
+	/* border: solid rgba(211, 209, 209, 0.418); */
+	padding: 15px;
+	/* border-radius: 50px;
   background:  rgba(211, 209, 209, 0.418); */
 
-  margin: auto;
-  width: 50%;
-  top: 50%;
+	margin: auto;
+	width: 50%;
+	top: 50%;
 
-
-padding: 28px;
+	padding: 28px;
 }
-#caption-buttons>*{
-  position: relative;
-  /* word-spacing:15px; */
-  bottom: 80px;
-  z-index: 999;
-  color: white
-
+#caption-buttons > * {
+	position: relative;
+	/* word-spacing:15px; */
+	bottom: 80px;
+	z-index: 999;
+	color: white;
 }
-#btn{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+#btn {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.space{
-  display: none;
+.space {
+	display: none;
 }
-@import url('https://fonts.googleapis.com/css?family=Almarai');
-#caption{
-  top: 30%;
-  font-family: 'Almarai';
-  text-shadow: 2px 2px 4px #000000;
-  margin-left: auto;
-      margin-right: auto;
-  /* text-align: center; */
-
+@import url("https://fonts.googleapis.com/css?family=Almarai");
+#caption {
+	top: 30%;
+	font-family: "Almarai";
+	text-shadow: 2px 2px 4px #000000;
+	margin-left: auto;
+	margin-right: auto;
+	/* text-align: center; */
 }
-.cards{
-  /* color:rgb(238, 197, 14) */
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+.cards {
+	/* color:rgb(238, 197, 14) */
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* .first, .third{
   bottom: -35px;
 } */
-#figure{
-  border: 50%;
-  top: 35%;
+#figure {
+	border: 50%;
+	top: 35%;
 }
-#form>*{
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: 'Antic';
-  color: white;
-  font-weight: bolder;
-
+#form > * {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: "Antic";
+	color: white;
+	font-weight: bolder;
 }
-#form #submit{
-  color: white;
-  text-shadow: none;
-
+#form #submit {
+	color: white;
+	text-shadow: none;
 }
-@import url('https://fonts.googleapis.com/css?family=Allerta');
-.title{
-  /* font-family: 'Almarai'; */
-  font-family: 'Alegreya Sans';
-  color: #32404D;
-  -webkit-text-decoration:   overline;
-  text-decoration:  overline ;
-  /* -webkit-text-decoration-skip: objects;
+@import url("https://fonts.googleapis.com/css?family=Allerta");
+.title {
+	/* font-family: 'Almarai'; */
+	font-family: "Alegreya Sans";
+	color: #32404d;
+	-webkit-text-decoration: overline;
+	text-decoration: overline;
+	/* -webkit-text-decoration-skip: objects;
   text-decoration-skip: objects; */
-  /* text-shadow: 1px 1px 1px #111111; */
-
+	/* text-shadow: 1px 1px 1px #111111; */
 }
 .footer {
-  background-color: 
-  /* #17A2B8; */
-  #282D33;
-  color: white;
-  text-align: center;
-  padding: 5%;
-   
-  }
-  /* .mr-auto{
+	background-color: 
+  /* #17A2B8; */ #282d33;
+	color: white;
+	text-align: center;
+	padding: 5%;
+}
+/* .mr-auto{
     position: relative;
     left: 75vw;
   } */
-  #work{
-    text-decoration: #faf9fc overline  ;
-    padding: 10px;
-    font-family: 'Almarai';
+#work {
+	text-decoration: #faf9fc overline;
+	padding: 10px;
+	font-family: "Almarai";
+}
 
-  }
- 
-  .img{  
-    width:  100%;
-    height: 250px;
-    object-fit: cover;}
-    .d-block{
-      width: 100%;
-      height: 580px;
-      /* border-radius: 55; */
-      object-fit: cover;
-      max-width: 100%;
-      display: block;
-
-    }
-    #call{
-      color: white;
-      font-family: 'Antic';
-      text-shadow: 2px 2px 8px #000000;
-      border: solid #808992 ;
-      background-color: #808992;
-
-    }
-   /* #a-p{
+.img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+.d-block {
+	width: 100%;
+	height: 580px;
+	/* border-radius: 55; */
+	object-fit: cover;
+	max-width: 100%;
+	display: block;
+}
+#call {
+	color: white;
+	font-family: "Antic";
+	text-shadow: 2px 2px 8px #000000;
+	border: solid #808992;
+	background-color: #808992;
+}
+/* #a-p{
     background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
     background-color: white;
    } */
-   .car{
-    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-   }
-  
-   .a-b{
-     /* color: white; */
-     /* text-shadow: 0px 0px 1px #000000; */
-     font-family: 'Alegreya Sans';
-     text-transform: capitalize; 
-
-
-
-   }
-
-
-   .c-a-b{
-    /* color: white; */
-    /* text-shadow: 0px 0px 1px #000000; */
-    font-family: 'Alegreya Sans';
-    text-transform: capitalize; 
-    color: white;
-    padding: 10px;
-    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-
-
-
-
-  }
-   .list{
-    background-color: transparent;
-     border: 1px solid transparent;
-     font-family: 'Almarai';
-     color: #32404D;
-
-   }
-   .dk{
-     padding: 10px;
-   }
-   .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  #about-p{
-    display:block;
-
-  }
-  @media(max-width : 1024px){
-
-    #caption-buttons>*{
-      bottom: 120px;
-    }
-    .space{
-      display: block;
-      height: 10px
-    }
-
-  }
-  @media(max-width : 768px){
-
-    #caption-buttons>*{
-      bottom: 120px;
-    }
-
-  }
-  @media(max-width : 720px){
-
-    #call{
-      font-size: 20px;
-    }
-
-  }
-   @media(max-width : 696px){
-     #text-job{
-       left: 33%;
-     }
-     #caption-buttons>*{
-       bottom: 125px;
-     }
- 
-   }
-   @media(max-width : 540px){
-  
-    #text-job{
-      left: 20%;
-    }
-  
- 
-  }
-   @media(max-width : 414px){
-  
-    #text-job{
-      left: 20%;
-    }
-  
- 
-  }
-   @media(max-width : 375px){
-  
-   #text-job{
-     left: 15%;
-
-   }
-   .enter{
-     position: relative;
-     bottom: 50px;
-   }
- 
-
- }
-   @media(max-width : 329px){
-     #caption{
-       top: 10%;
-     }
-    #text-job{
-      left: 20%;
-    }
-    #caption-buttons>*{
-      bottom: 155px;
-    }
-
-  }
-  @media(max-width : 320px){
-  
-   #text-job{
-     left: 10%;
-   
-   }
-@media(max-width:280){
-  input.form-control{
-    border: solid red;
-  }
+.car {
+	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
- }
-.container-width{
-  max-width: 1280px;
-  margin: 0 auto;
+.a-b {
+	/* color: white; */
+	/* text-shadow: 0px 0px 1px #000000; */
+	font-family: "Alegreya Sans";
+	text-transform: capitalize;
+}
+
+.c-a-b {
+	/* color: white; */
+	/* text-shadow: 0px 0px 1px #000000; */
+	font-family: "Alegreya Sans";
+	text-transform: capitalize;
+	color: white;
+	padding: 10px;
+	/* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+.list {
+	background-color: transparent;
+	border: 1px solid transparent;
+	font-family: "Almarai";
+	color: #32404d;
+}
+.dk {
+	padding: 10px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+#about-p {
+	display: block;
+}
+@media (max-width: 1024px) {
+	#caption-buttons > * {
+		bottom: 120px;
+	}
+	.space {
+		display: block;
+		height: 10px;
+	}
+}
+@media (max-width: 768px) {
+	#caption-buttons > * {
+		bottom: 120px;
+	}
+}
+@media (max-width: 720px) {
+	#call {
+		font-size: 20px;
+	}
+}
+@media (max-width: 696px) {
+	#text-job {
+		left: 33%;
+	}
+	#caption-buttons > * {
+		bottom: 125px;
+	}
+}
+@media (max-width: 540px) {
+	#text-job {
+		left: 20%;
+	}
+}
+@media (max-width: 414px) {
+	#text-job {
+		left: 20%;
+	}
+	#form {
+		width: 95%;
+	}
+}
+@media (max-width: 375px) {
+	#text-job {
+		left: 15%;
+	}
+	.enter {
+		position: relative;
+		bottom: 50px;
+	}
+}
+@media (max-width: 329px) {
+	#caption {
+		top: 10%;
+	}
+	#text-job {
+		left: 20%;
+	}
+	#caption-buttons > * {
+		bottom: 155px;
+	}
+}
+@media (max-width: 320px) {
+	#text-job {
+		left: 10%;
+	}
+	@media (max-width: 280) {
+		input.form-control {
+			border: solid red;
+		}
+	}
+}
+.container-width {
+	max-width: 1280px;
+	margin: 0 auto;
 }

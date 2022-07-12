@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
             <div className='footer'>
                 <Container>
                     <Row >  
-                     <Col>© Copyright 2021    |     All Rights Reserved</Col>
+                     <Col>© Copyright {new Date().getFullYear()}    |     All Rights Reserved</Col>
                     </Row>               
                 </Container>
              

@@ -207,7 +207,7 @@ export default function About(props) {
 							years. He takes pride in his work and it shows through the beautiful results he
 							provides. With many years of experience under his belt he can help you complete major
 							and minor projects and guarantee the quality of his workmanship. Medardo Construction
-							Corp. does capentry work and beautiful masonry Work, from installing new windows to
+							Corp. does carpentry work and beautiful masonry Work, from installing new windows to
 							replacing them, Whatever your project, he is ready to help. Call now to schedule an
 							appointment and free estimate. We will also answer any questions you may have about
 							the work that is done and what to expect during your service appointment.

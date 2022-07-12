@@ -53,7 +53,7 @@ export default function Home(props) {
 						<Container className="enter">
 							<Row className="justify-content-md-center">
 								<Col>
-									<h1>Capentry & Masonry work</h1>
+									<h1>carpentry & Masonry work</h1>
 								</Col>
 								<br />
 							</Row>

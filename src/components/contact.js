@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
 	};
 	render() {
 		return (
-			<div class="f-pg container-width" id="contact">
+			<div className="f-pg container-width" id="contact">
 				<Container>
 					<h5 className="c-a-b">
 						Contact us here! or{" "}

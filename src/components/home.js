@@ -72,7 +72,7 @@ export default function Home(props) {
 				</Carousel.Item>
 			</Carousel>
 			<h1 className="title">
-				<i class="fas fa-tools"></i> Medardo MJ Construction Corp.
+				<i className="fas fa-tools"></i> Medardo MJ Construction Corp.
 			</h1>
 			<br />
 			<br />
@@ -116,7 +116,7 @@ export default function Home(props) {
 			<br />
 			<br />
 			<h2 id="call">
-				CONTACT US TODAY! ES:631-508-1374 or
+				CONTACT US TODAY! ES:516-903-6060 or
 				<a
 					style={{ color: "white", textDecoration: "underline" }}
 					href="mailto:Medardomjconstruction@gmail.Com"

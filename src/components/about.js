@@ -158,7 +158,7 @@ export default function About(props) {
 				})}
 			</Carousel>
 			<p id="call">
-				CONTACT US TODAY! 631-508-1374 or{" "}
+				CONTACT US TODAY! 516-903-6060 or{" "}
 				<a
 					style={{ color: "white", textDecoration: "underline" }}
 					href="mailto:Medardomjconstruction@gmail.Com"
@@ -196,7 +196,7 @@ export default function About(props) {
 
 					<Col xs>
 						<h1 className="title" id="ex ">
-							20 Years of experience <i class="fas fa-tools"></i>
+							20 Years of experience <i className="fas fa-tools"></i>
 						</h1>
 						<br />
 						<p id="about-p">
